@@ -1,57 +1,42 @@
 # Sorting Visualizer
 
-An interactive web-based algorithm animation tool that visualizes classic sorting algorithms in real time, demonstrating element comparisons, swaps, and computational time complexities.
+An interactive web application that visualizes fundamental sorting algorithms in real time, demonstrating element comparisons, swaps, and time complexities through responsive animations.
 
----
+## 📌 About the Project
+Sorting Visualizer gives users a clear, visual understanding of how common sorting algorithms operate step-by-step. Users can adjust array size, configure animation speed, generate new randomized datasets, and watch algorithms sort values dynamically.
 
-## 📌 Project Overview
-Sorting Visualizer allows users to see how different sorting algorithms work step-by-step. Users can customize array sizes, adjust animation speeds, generate random datasets, and observe how each algorithm organizes data.
-
-### Algorithms Visualized
-- **Bubble Sort** — Best: $O(n)$ | Avg/Worst: $O(n^2)$
-- **Selection Sort** — Best/Avg/Worst: $O(n^2)$
-- **Insertion Sort** — Best: $O(n)$ | Avg/Worst: $O(n^2)$
-- **Merge Sort** — Best/Avg/Worst: $O(n \log n)$
-- **Quick Sort** — Best/Avg: $O(n \log n)$ | Worst: $O(n^2)$
-- **Heap Sort** — Best/Avg/Worst: $O(n \log n)$
-
----
+The repository includes two versions:
+- **`React-App/`**: A full modern React.js application with modular components and dynamic state-driven controls.
+- **`Vanilla-Web/`**: A lightweight HTML5, CSS3, and ES6 JavaScript version that runs instantly in any browser with zero dependencies.
 
 ## 🛠️ Languages, Tools & Software Used
 - **Languages**: JavaScript (ES6+), HTML5, CSS3, SCSS
 - **Frameworks & Libraries**: React.js
-- **Package Manager & Runtime**: Node.js, npm
-- **Development Tools & Software**: Visual Studio Code, Git, GitHub, Chrome DevTools
+- **Runtime & Tools**: Node.js, npm
+- **Softwares & IDEs**: Visual Studio Code, Git, GitHub, Chrome DevTools
 
----
-
-## 📂 Project Structure
-- **`React-App/`**: Complete React.js implementation with dynamic state management, smooth CSS bar transitions, and responsive controls.
-- **`Vanilla-Web/`**: Lightweight HTML5/CSS3/ES6 implementation that runs instantly in any modern web browser with zero dependencies.
-
----
+## 📊 Algorithms Visualized
+- **Bubble Sort** ($O(n^2)$)
+- **Selection Sort** ($O(n^2)$)
+- **Insertion Sort** ($O(n^2)$)
+- **Merge Sort** ($O(n \log n)$)
+- **Quick Sort** ($O(n \log n)$)
+- **Heap Sort** ($O(n \log n)$)
 
 ## 🚀 How to Run
 
-### Option 1: React Application
+### React Version
 ```bash
-# Navigate to the React directory
 cd React-App
-
-# Install project dependencies
 npm install
-
-# Start the local development server
 npm start
 ```
-The application will open automatically at `http://localhost:3000`.
+Runs locally at `http://localhost:3000`.
 
-### Option 2: Vanilla Web Version
-Navigate to `Vanilla-Web/` and open `index.html` directly in any web browser, or launch it using VS Code Live Server.
-
----
+### Vanilla Web Version
+Simply open `Vanilla-Web/index.html` in any modern web browser or serve via VS Code Live Server.
 
 ## 👤 Author
-**Karim Hassan**  
-- Portfolio: [karimal-shamy.github.io](https://karimal-shamy.github.io/)  
+**Karim Hassan**
+- Portfolio: [karimal-shamy.github.io](https://karimal-shamy.github.io/)
 - GitHub: [@KarimAL-Shamy](https://github.com/KarimAL-Shamy)
